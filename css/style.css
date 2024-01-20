@@ -13,22 +13,318 @@ a{
     text-decoration: none;
 }
 
-/*! Common Styles */
-
-
-
-
 /*! nav start */
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+nav{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    gap: 70px;
+}
+nav h2{
+    color:#131313;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+nav li a{
+    color: #424242;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    transition: all linear 0.3s;
+}
+nav li a:hover{
+    color: #FF900E;
+}
 /*! nav end */
-/*! nav start */
-/*! nav end */
-/*! nav start */
-/*! nav end */
-/*! nav start */
-/*! nav end */
-/*! nav start */
-/*! nav end */
-/*! nav start */
-/*! nav end */
-/*! nav start */
-/*! nav end */
+/*! banner start */
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-details{
+    padding-top: 102px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+.banner-details h1{
+    width: 862px;
+    margin: 0 auto;
+    color:#131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner-details p{
+    width: 868px;
+    margin: 0 auto;
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.banner-details button{
+    padding: 20px 25px;
+    margin-bottom: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    background: #FF900E;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.banner-details button:hover{
+    color: #000;
+    background: transparent;
+}
+/*! banner end */
+/*! team start */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.team{
+    padding-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.team-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-img{
+    border-radius: 8px;
+}
+.team-details{
+    margin-left: 90px;
+}
+.team-details h2{
+    width: 468px;
+    color:#727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+.team-details .span1{
+    color: #131313;
+}
+.team-details .span2{
+    color: #FF900E;
+}
+.team-details p{
+    width: 537px;
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+.team-details button{
+    padding: 20px 25px;
+    margin-bottom: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    background: #FF900E;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.team-details button:hover{
+    color: #000;
+    background: transparent;
+}
+/*! team end */
+/*! girl start */
+.girl{
+    padding: 130px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.girl-details h3{
+    width: 468px;
+    color:  #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 22px;
+}
+.girl-details p{
+    width: 586px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 30px;
+}
+.box{
+    padding: 30px;
+    padding-bottom: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.boxes{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap: 20px;
+}
+.box h6{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+.box p{
+    width: 514px;
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 10px;
+}
+.count{
+    width: 342px;
+    padding: 45px 0;
+    border-radius: 8px;
+    background: #FF900E;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.count h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.count p{
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.girl-content{
+    position: relative;
+}
+.girl-content img{
+    width: 708px;
+    height: 982px;
+}
+.count {
+    position: absolute;
+    bottom: -77px;
+    left: -92px;
+}
+/*! girl end */
+/*! fact start */
+.fact{
+    padding-top: 100px;
+}
+.fact h3{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.fact p{
+    width: 542px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+}
+.fact-content{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.boxes24{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box69{
+    padding: 46px 36px 60px 36px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+}
+.box69 h5{
+    color:#424242;
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.box69 h6{
+    color:#727272;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+/*! fact end */
+/*! sponsor start */
+.sponsor{
+    padding: 130px 0;
+}
+.sponsor h3{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.sponsor p{
+    width: 542px;
+    margin: 0 auto;
+    color:#727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 50px;
+}
+.sponsors-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*! sponsor end */
+/*! footer start */
+footer{
+    padding-bottom: 216px;
+}
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 39px 0;
+}
+.footer p{
+    color: #424242;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+/*! footer end */
